@@ -1,0 +1,28 @@
+#获取环境配置
+source /etc/profile
+
+pwd
+ls
+
+#打包测试代码， -DxmlFileName指定需要执行的xml文件
+mvn clean test||true  -DxmlFileName=testng.xml
+
+#获取jenkins上的构建id
+result=$(curl -s http://10.0.0.8:8080/job/秀场JavaApitest/lastBuild/buildNumber --user admin:123456)
+
+#根据id号在本地tomcat目录下创建一个文件夹
+mkdir /usr/local/tomcat/apache-tomcat-8.0.23/webapps/ROOT/JavaReport/$result
+
+#把测试报告拷贝到tomcat文件夹下
+cp /root/.jenkins/workspace/秀场JavaApitest/test-output/index.html /usr/local/tomcat/apache-tomcat-8.0.23/webapps/ROOT/JavaReport/$result/index.html
+cp /root/.jenkins/workspace/秀场JavaApitest/test-output/index.html /usr/local/tomcat/apache-tomcat-8.0.23/webapps/ROOT/JavaReport/index.html
+
+#发送钉钉消息
+curl 'https://oapi.dingtalk.com/robot/send?access_token=457d8eb62b4f0b1e5781e880a950dbb5c552157517c0488f3862c0b9e77ab21f' \
+-H 'Content-Type: application/json' \
+-d '{"msgtype": "text",
+"text": {
+"content": "接口自动化执行通知：
+测试报告地址：http://10.0.0.8:8085/JavaReport/index.html"
+}
+}'

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="example:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75f42726-d175-44a4-857c-5526df200c9c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../apache-maven-3.8.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1uvkWivEQX2qzDYpzK2VNdmMkMo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Util" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/main" />
+      <recent name="$PROJECT_DIR$/src/main/java/Utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SendTestResultToDingTalk">
+    <configuration name="DingTalk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.DingTalk" />
+      <module name="dingtalk-interface-Autotest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Html" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Html" />
+      <module name="example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SendTestResultToDingTalk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.utils.SendTestResultToDingTalk" />
+      <module name="example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dtTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dtTest" />
+      <module name="dingtalk-interface-Autotest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="imageChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Utils.imageChange" />
+      <module name="example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SendTestResultToDingTalk" />
+        <item itemvalue="Application.DingTalk" />
+        <item itemvalue="Application.Html" />
+        <item itemvalue="Application.imageChange" />
+        <item itemvalue="Application.dtTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75f42726-d175-44a4-857c-5526df200c9c" name="Default Changelist" comment="" />
+      <created>1625553483257</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625553483257</updated>
+      <workItem from="1625553487929" duration="257000" />
+      <workItem from="1625553751371" duration="1187000" />
+      <workItem from="1625556568528" duration="16980000" />
+      <workItem from="1625709358989" duration="227000" />
+      <workItem from="1625709860705" duration="27000" />
+      <workItem from="1625709922514" duration="174000" />
+      <workItem from="1625710256019" duration="41000" />
+      <workItem from="1625710310161" duration="82000" />
+      <workItem from="1625710488164" duration="1137000" />
+      <workItem from="1625734375589" duration="10000" />
+      <workItem from="1625734439287" duration="11779000" />
+      <workItem from="1626168324793" duration="9524000" />
+      <workItem from="1627610105579" duration="12000" />
+      <workItem from="1627715927487" duration="1798000" />
+      <workItem from="1630635900034" duration="163000" />
+      <workItem from="1630636089997" duration="55000" />
+      <workItem from="1630636169570" duration="876000" />
+      <workItem from="1630685693358" duration="1440000" />
+      <workItem from="1630726388787" duration="954000" />
+      <workItem from="1632468149359" duration="155000" />
+      <workItem from="1632468422591" duration="305000" />
+      <workItem from="1642748741718" duration="1692000" />
+      <workItem from="1648625117498" duration="5560000" />
+      <workItem from="1648631986829" duration="7744000" />
+      <workItem from="1649214312554" duration="8892000" />
+      <workItem from="1650006984318" duration="20681000" />
+      <workItem from="1650123184127" duration="210000" />
+      <workItem from="1650123414558" duration="199000" />
+      <workItem from="1650609022812" duration="286000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="445" y="118" key="#DingTalk" timestamp="1650031903724">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state x="2404" y="-146" key="#DingTalk/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1650011347681" />
+    <state x="445" y="118" key="#DingTalk/0.25.1440.822@0.25.1440.822" timestamp="1650031903724" />
+    <state x="375" y="224" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1650122263980">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state x="375" y="224" key="#com.intellij.ide.util.TreeClassChooserDialog/0.25.1440.822@0.25.1440.822" timestamp="1650122263980" />
+    <state width="1398" height="378" key="GridCell.Tab.0.bottom" timestamp="1650123395280">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state width="2518" height="232" key="GridCell.Tab.0.bottom/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1650017177816" />
+    <state width="1398" height="378" key="GridCell.Tab.0.bottom/0.25.1440.822@0.25.1440.822" timestamp="1650123395280" />
+    <state width="1398" height="378" key="GridCell.Tab.0.center" timestamp="1650123395279">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state width="2518" height="232" key="GridCell.Tab.0.center/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1650017177816" />
+    <state width="1398" height="378" key="GridCell.Tab.0.center/0.25.1440.822@0.25.1440.822" timestamp="1650123395279" />
+    <state width="1398" height="378" key="GridCell.Tab.0.left" timestamp="1650123395279">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state width="2518" height="232" key="GridCell.Tab.0.left/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1650017177816" />
+    <state width="1398" height="378" key="GridCell.Tab.0.left/0.25.1440.822@0.25.1440.822" timestamp="1650123395279" />
+    <state width="1398" height="378" key="GridCell.Tab.0.right" timestamp="1650123395279">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state width="2518" height="232" key="GridCell.Tab.0.right/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1650017177816" />
+    <state width="1398" height="378" key="GridCell.Tab.0.right/0.25.1440.822@0.25.1440.822" timestamp="1650123395279" />
+    <state x="2258" y="-149" key="Maven.ArtifactSearchDialog" timestamp="1648627592711">
+      <screen x="1440" y="-515" width="2560" height="1415" />
+    </state>
+    <state x="2258" y="-149" key="Maven.ArtifactSearchDialog/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1648627592711" />
+    <state x="125" y="25" width="1024" height="822" key="SettingsEditor" timestamp="1650123345410">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state x="2208" y="-229" key="SettingsEditor/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1648627950115" />
+    <state x="125" y="25" width="1024" height="822" key="SettingsEditor/0.25.1440.822@0.25.1440.822" timestamp="1650123345410" />
+    <state x="539" y="336" key="com.intellij.ide.util.TipDialog" timestamp="1650609029246">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state x="539" y="336" key="com.intellij.ide.util.TipDialog/0.25.1440.822/1440.-515.2560.1415@0.25.1440.822" timestamp="1650609029246" />
+    <state x="2399" y="21" key="com.intellij.ide.util.TipDialog/0.25.1440.822/1440.-515.2560.1415@1440.-515.2560.1415" timestamp="1650006987481" />
+    <state x="123" y="55" key="new project wizard" timestamp="1650123474328">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state x="123" y="55" key="new project wizard/0.25.1440.822@0.25.1440.822" timestamp="1650123474328" />
+  </component>
+</project>
