@@ -1,4 +1,4 @@
-package main;
+package com.utils;
 
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
